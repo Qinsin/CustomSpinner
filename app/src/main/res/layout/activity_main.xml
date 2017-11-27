@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kemov.vam.customspinner.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:text="Hello World!"/>
+    <!--<include
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        layout="@layout/custom_spinner"/>-->
+    <com.kemov.vam.myspinner.CustomSpinner
+        android:id="@+id/spinner"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff0"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </com.kemov.vam.myspinner.CustomSpinner>
+
+</LinearLayout>

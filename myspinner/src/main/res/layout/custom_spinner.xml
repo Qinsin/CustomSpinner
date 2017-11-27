@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_margin="0dp"
+    android:shrinkColumns="0"
+    android:stretchColumns="0" >
+    <TableRow
+        android:id="@+id/table_row_spiner_comport"
+        android:layout_width="fill_parent"
+        android:background="@drawable/table_item_press_selector"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/comport_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:includeFontPadding="false"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="#ff222222"
+            android:textStyle="normal"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:src="@drawable/down" />
+    </TableRow>
+</TableLayout>
